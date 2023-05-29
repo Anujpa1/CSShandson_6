@@ -14,6 +14,12 @@
     position: absolute;
     top: 12%;
     right: 12%;
+    animation: sun 20s infinite;
+}
+@keyframes sun{
+    100%{
+        transform: translatex(-100px);
+    }
 }
 .sun img{
     height: 80px;
@@ -23,7 +29,7 @@
 .flag{
     position: absolute;
     left: 54%;
-    top: 455px;
+    top: 370px;
     border-radius: 50%;
     z-index: 3;
 }
